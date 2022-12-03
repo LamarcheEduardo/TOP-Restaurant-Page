@@ -8,7 +8,8 @@ module.exports = {
         filename: 'bundle.js'
     },
     plugins: [new HtmlWebpackPlugin({
-        title: 'My App',
+        title: 'The Odin Project - Restaurant Page',
+        filename: 'index.html',
     })],
     devServer: {
         static: {
